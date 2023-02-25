@@ -1,8 +1,9 @@
 ## VinceVoice
 
-A simple website I created for a voice actor. The website contains fragments and information about his work.
+A simple website I created for a voice actor. The website contains fragments and information about his work. 
+This has also been my first experience with hosting a website and the process surrounding it.
 
-The original website skeleton comes from github user deepug9787.
+The original website skeleton comes from Github user deepug9787.
 
 
 
