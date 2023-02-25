@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+            content="minimum-scale=1"
+        />
+        <title>VinceVoice</title>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header class="contained">
+            <a href="#" class="logo">
+                <img src="img/vvlogo.png"/>
+                <span>VinceVoice</span>
+            </a>
+
+            <button aria-expanded="false" aria-label="menu" class="menu-icon hamburger-menu">
+                &#9776;
+            </button>
+
+            <nav>
+                <button aria-label="close menu" class="menu-icon close-menu">&#215;</button>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#soundbites">Soundbites</a></li>
+                    <li><a href="#tarieven">Tarieven</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero" id="hero">
+            <section class="contained">
+
+                <h1 style="margin: auto;">
+                    VinceVoice - voor al uw voice-overs!
+                </h1>
+
+
+
+                <p style="margin: auto;">
+                    Hi, ik ben Vincent van Wijk. Voice-over en stemacteur. Op deze website vind je diverse stemdemo's.
+                    Graag draag ik bij aan uw bedrijfsvideo, documentaire, commercial of tekenfilm.
+                    Mijn ervaring als voice-over en stemacteur is kort, maar dat compenseer ik met mijn enthousiasme.
+                </p>
+
+                <div class="headshot" >
+                    <img src="img/fotos/Vincent-zakelijk.jpg" style="border-radius: 15px;"/>
+                </div>
+
+                <a href="mailto:vincentvanwijk@hotmail.com?SUBJECT=VinceVoice offerte" class="link cta-link"
+                    ><span>Vraag direct een offerte aan</span>
+                    <img src="img/icons/dark-arrow.png" alt="" />
+                </a>
+            </section>
+
+            <picture>
+                <source srcset="img/fotos/mic.jpg" media="(min-width: 850px)" />
+                <img src="img/fotos/mic.jpg" />
+            </picture>
+        </div>
+
+        <main>
+            <section class="blog contained" id="soundbites">
+                <h2>Soundbites</h2>
+
+                <div class="posts">
+                    <section class="post-item" onclick="toggleAudio(vermeer)">
+                        <h3>Museumtour - Meisje met de parel</h3>
+
+                        <a class="link"
+                            ><span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img src="img/fotos/vermeer.jpg" alt="A living room with sofa and chairs" />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(belbel)">
+                        <h3>Commercial - Belbel</h3>
+
+                        <a class="link"
+                            ><span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img src="img/fotos/belbel.webp" alt="A living room with sofa and chairs" />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(hanzo)">
+                        <h3>Commercial - Hanzo</h3>
+
+                        <a class="link"
+                            ><span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img src="img/fotos/hanzo.jpg" alt="A living room with sofa and chairs" />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(quooker)">
+                        <h3>Commercial - Quooker flex</h3>
+
+                        <a class="link"
+                            ><span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img src="img/fotos/quooker.png" alt="A living room with sofa and chairs" />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(mva)">
+                        <h3>Cartoon - Link in Monsters versus Aliens</h3>
+
+                        <a class="link">
+                            <span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img
+                            src="img/fotos/mvalink.jpg"
+                        />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(diner)">
+                        <h3>Audioboek - roman - Het diner</h3>
+
+                        <a class="link">
+                            <span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img
+                            src="img/fotos/diner.webp"
+                        />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(gvr)">
+                        <h3>Audioboek - jeugd - de GVR</h3>
+
+                        <a class="link">
+                            <span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img
+                            src="img/fotos/gvr.jpg"
+                        />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(bosch)">
+                        <h3>Museum audiotour - Jeroen Bosch</h3>
+
+                        <a class="link">
+                            <span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img
+                            src="img/fotos/jeroenbosch.jpg"
+                        />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(schooltv)">
+                        <h3>Voice over - SchoolTV</h3>
+
+                        <a class="link">
+                            <span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img
+                            src="img/fotos/schooltv.jpg"
+                        />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(sire)">
+                        <h3>Commercial - SIRE</h3>
+
+                        <a class="link"
+                            ><span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img
+                            src="img/fotos/sire.jpg"
+                            alt="A home office with a table and desktop computer"
+                        />
+                    </section>
+
+                    <section class="post-item" onclick="toggleAudio(gevangenis)">
+                        <h3>Voice over - Brandvlij gevangenis</h3>
+
+                        <a class="link">
+                            <span>Klik op de afbeelding om het fragment af te spelen.</span>
+                        </a>
+
+                        <img
+                            src="img/fotos/gevangenis.jpg"
+                        />
+                    </section>
+
+
+                </div>
+            </section>
+
+            <section class="who-we-are contained" id="tarieven">
+                <div>
+                    <h3>Radiocommercials</h3>
+
+                    <p>
+                        Regionaal € 150,-
+                    </p>
+                    <p>
+                        Landelijk € 250,-
+                    </p>
+
+                    <img src="img/icons/radio.png" alt="" />
+                </div>
+
+                <div>
+                    <h3>Televisiecommercials</h3>
+
+                    <p>
+                        Regionaal € 250,-
+                    </p>
+                    <p>
+                        Landelijk € 350,-
+                    </p>
+
+                    <img src="img/icons/tv.png" alt="" />
+                </div>
+
+                <div>
+                    <h3>AV producties • Bedrijfsfilm • E-learning</h3>
+
+                    <p>
+                        Tot 750 woorden € 275,-
+                    </p>
+                    <p>
+                        Vanaf 750 woorden op aanvraag
+                    </p>
+
+                    <img src="img/icons/team.png" alt="" />
+                </div>
+
+                <div>
+                    <h3>Audioboeken</h3>
+
+                    <p>
+                        Op aanvraag
+                    </p>
+
+                    <img src="img/icons/story.png" alt="" />
+                </div>
+            </section>
+
+            <section class="who-we-are contained" style="margin-top: 0px;" id="tarieven">
+                <div>
+                    <p>
+                        • De tarieven voor commercials zijn inclusief buy-out voor 1 jaar.
+                    </p>
+                    <br>
+                    <p>
+                        • Prijzen voor het inspreken van voice-response systemen, luisterboeken,
+                        animatiefilms en andere producties zijn op aanvraag.
+                    </p>
+                    <br>
+                    <p>
+                        • Genoemde bedragen zijn exclusief BTW en zijn gebaseerd op levering vanuit
+                        mijn thuisstudio. Eén eventuele correctieronde is inbegrepen.
+                    </p>
+                    <p>
+                        • Ik heb toegang tot opnamefaciliteiten en kan over het algemeen binnen 24 uur
+                        leveren. Dit is een goede maar zogenaamd ruwe opname die in nabewerking
+                        geoptimaliseerd kan worden.
+                    </p>
+                </div>
+            </section>
+
+            <section class="cta contained" id="contact">
+                <h2>Contact</h2>
+
+                <p>
+                    Wil je mij boeken als voice-over of stemacteur? Neem contact met mij op per mail,
+                    telefoon of via het contactformulier en ik neem contact met je op voor een vrijblijvende,
+                    scherp geprijsde offerte.
+                </p>
+                <br>
+                <p>
+                    <b>06 297 2222 4 </b>
+                </p>
+                <p>
+                    <b>vincentvanwijk@hotmail.com</b>
+                </p>
+
+                <br>
+
+                <p>
+                    Liever direct een fragment van je script met mijn stem horen? Vraag dan gerust een gratis
+                    proefopname aan!
+                </p>
+
+                <a href="mailto:vincentvanwijk@hotmail.com?SUBJECT=VinceVoice offerte" class="link cta-link">
+                    <span>Mail nu!</span>
+                    <img src="img/icons/dark-arrow.png" alt="" />
+                </a>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="contained">
+                <section class="footer-about">
+                    <h2 class="visually-hidden">About</h2>
+
+                    <a href="#" class="logo">
+                        <img src="img/vvlogo.png" alt="" />
+                        <span>VinceVoice</span>
+                    </a>
+
+
+                </section>
+
+                <section class="footer-services">
+                    <h2>Diensten</h2>
+
+                    <ul>
+                        <li>Radiocommercials</li>
+                        <li>Televisiecommercials</li>
+                        <li>Audioboeken</li>
+                        <li>Bedrijfsfilms</li>
+                </section>
+
+                <section class="footer-contact">
+                    <h2>Contact</h2>
+                    <span>06 297 2222 4</span>
+                    <span>vincentvanwijk@hotmail.com</span>
+                </section>
+            </div>
+        </footer>
+
+        <div class="menu-overlay"></div>
+
+        <div class="bck-overlay contained">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </body>
+</html>
